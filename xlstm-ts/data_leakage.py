@@ -8,8 +8,6 @@ Leakage sanity for a single rolling window:
     2) high Pearson |corr| >= CORR_FLAG
 - Prints flagged features and final feature count, plus split sizes.
 
-Input  : features_lgbm_ohlcv.parquet (your engineered file)
-Target : y_ret_next
 """
 
 import numpy as np
