@@ -1,5 +1,4 @@
-# make_features_lgbm_ohlcv.py (with robust yfinance fetch + daily macro merge + MARKET CAP FEATURES + EVENT FLAGS)
-# Build LightGBM/xLSTM-ready, leak-free features using OHLCV (+ optional adj_close) + DAILY macro features + DAILY market-cap features + event regime flags.
+# leak-free features using OHLCV (+ optional adj_close) + DAILY macro features + DAILY market-cap features + event regime flags.
 # Input  : cleaned_ohlcv_30y_all.parquet  +  marketcap_30y.(parquet|csv)
 # Output : features_lgbm_ohlcv.parquet
 
